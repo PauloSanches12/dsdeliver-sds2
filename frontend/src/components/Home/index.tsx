@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles.css';
 import { ReactComponent as MainImage } from '../../assets/main.svg';
+import Footer from '../Footer';
 const Home: React.FC = () => {
   return (
-    <div className="home-container">
+    <>
+      <div className="home-container">
       <div className="home-content">
         <div className="home-actions">
           <h1 className="home-title">
@@ -19,6 +21,8 @@ const Home: React.FC = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 
