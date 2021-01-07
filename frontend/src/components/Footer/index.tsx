@@ -6,7 +6,7 @@ import { ReactComponent as YoutubeIcon } from '../../assets/youtube.svg';
 const Footer: React.FC = () => {
   return (
     <footer className="main-footer">
-      App desenvolvido durante a 2ª ed. do evento <b>Semana DevSuperior</b>
+      App desenvolvido durante a 2ª ed. do evento <strong>Semana DevSuperior</strong>
       <div className="footer-icons">
         <a href="https://www.youtube.com/c/DevSuperior/" target="_new">
           <YoutubeIcon/>
