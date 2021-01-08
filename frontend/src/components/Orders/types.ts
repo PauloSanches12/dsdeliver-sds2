@@ -11,3 +11,14 @@ export interface OrderLocationdata {
     longitude: number,
     address: string
 }
+
+interface ProductId {
+    id: number;
+}
+
+export interface OrderPayload {
+    products: ProductId[];
+    latitude: number,
+    longitude: number,
+    address: string
+};
